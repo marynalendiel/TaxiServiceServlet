@@ -1,0 +1,63 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 0px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 0px;}
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        width: fit-content;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+}
+
+.error-message{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.error-message h2{
+    font-weight: 300;
+}
+
+.action-button,  .action-button:not(.disabled):active {
+    border:1px solid rgba(255,255,255,0.7);
+    border-radius:40px;
+    color:#ebeff1;
+    box-shadow:none;
+    text-decoration: none;
+    text-shadow:none;
+    padding:.3rem .8rem;
+    background:transparent;
+    transition:background-color 0.25s;
+    outline:none;
+}
+
+.action-button:hover {
+    color:#fff;
+}

@@ -1,0 +1,16 @@
+com.taxiservice
+com.taxiservice.command
+com.taxiservice.command.admin
+com.taxiservice.command.client
+com.taxiservice.command.shared
+com.taxiservice.controller
+com.taxiservice.filter
+com.taxiservice.listener
+com.taxiservice.model
+com.taxiservice.model.dao
+com.taxiservice.model.entity
+com.taxiservice.tag
+com.taxiservice.util
+command
+entity
+utils
